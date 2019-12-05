@@ -9,58 +9,85 @@
   body {
 	/* font-size: 62.5%; */
 	font-family: "Titillium Web", sans-serif;
+	line-height: 1;
   }
   
   .container {
-	width: 1000px;
+	width: 900px;
 	/* background: orange; */
-	margin: 0 auto;
+	margin: 40px auto;
+	vertical-align: auto;
   }
   
   header {
-	background: purple;
+	/* background: purple; */
+	display: flex;
+	vertical-align: top;
+	height: 60px;
   }
   
   nav {
-	background: yellow;
+	/* background: yellow; */
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
-	padding-top:10px;
+	justify-content:space-between;
+	vertical-align: baseline;
+	width:100%;
+	height: 35px;
   }
+
+  nav a{
+	  color: gray;
+	  text-decoration: none;
+  }
+
+  .right{
+	  ;
+  }
+
+
   
   .main {
-	background: pink;
+	/* background: pink; */
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	justify-content: center;
   }
   
   #left {
-	width: 49%;
-	padding: 5% 15%;
-	text-align: center;
+	width: 53%;
+	padding: 5px 15px;
+	/* align-content: center; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	/* margin: 0 0 0px 0; */
   }
   
   #right {
 	/* background: white; */
-	width: 49%;
-	text-align: center;
+	width: 40%;
+	/* align-content: center; */
 	margin-top: 50px;
+	margin-bottom: 50px;
   }
+
   #title {
-	font-size: 50px;
-	width: 100%;
+	font-size: 70px;
+	/* width: ; */
 	text-align: center;
   }
+
   button {
 	width: 125px;
 	padding: 5px;
 	font-size: 14px;
 	border: 1px solid black;
 	background: white;
+	ma
   }
+
   h1,
   h2,
   h3,
@@ -73,27 +100,31 @@
   }
   
   .body-top {
-	background: red;
-	border-top: 5px solid black;
+	/* background: red; */
+	border-top: 1px solid black;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
-	padding: 5px 0 5px 0;
+	justify-content: space-around;
+	padding: 40px 0 20px 0;
   }
   
-  /* .body-img {
+  .body-img {
 	  display: flex;
-	  justify-content: space-around;
-  } */
+	  justify-content: stretch;
+  }
+
+  .middle-img{
+	  padding: 20px
+	
+  }
   
   .body-bot {
-	background: teal;
-	border-bottom: 5px solid black;
+	/* background: teal; */
+	border-bottom: 1px solid black;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	padding: 5px 0 5px 0;
-
+	padding: 20px 0 40px 0;
   }
   
   .body-top article {
@@ -106,7 +137,7 @@
   
   footer {
 	/* background: lightgreen; */
-	padding-top: 20px;
+	padding-top: 40px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
@@ -116,11 +147,16 @@
  } 
 
  #phone-number{
-	 padding: 10px 0 10px 0;
+	 padding: 20px 0 20px 0;
  }
 
  #copyright{
 	 text-align: center;
 	 padding-top: 50px;
  }
-  /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+  /* Start of CSS for Services Page */
+
+  .services-main{
+	  display:flex;
+	  flex-direction: column;
+  }
