@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
+	/* border:1px solid gray; */
   }
   
   body {
@@ -22,15 +23,20 @@
   
   nav {
 	background: yellow;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top:10px;
   }
   
   .main {
 	background: pink;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
   }
   
   #left {
-	background: pink;
-	display: inline-block;
 	width: 49%;
 	padding: 5% 15%;
 	text-align: center;
@@ -39,13 +45,14 @@
   
   #right {
 	/* background: white; */
-	display: inline-block;
 	width: 49%;
 	text-align: center;
 	margin-top: 50px;
   }
   #title {
-	font-size: 60px;
+	font-size: 50px;
+	width: 100%;
+	text-align: center;
   }
   button {
 	width: 125px;
@@ -68,27 +75,52 @@
   .body-top {
 	background: red;
 	border-top: 5px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 5px 0 5px 0;
   }
   
-  .body-img {
-	/* width: 100%; */
-  }
+  /* .body-img {
+	  display: flex;
+	  justify-content: space-around;
+  } */
   
   .body-bot {
 	background: teal;
 	border-bottom: 5px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 5px 0 5px 0;
+
   }
   
   .body-top article {
 	width: 49%;
-	display: inline-block;
   }
   
   .body-bot article {
 	width: 32%;
-	display: inline-block;
   }
   
   footer {
-	background: lightgreen;
-  }/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+	/* background: lightgreen; */
+	padding-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+  }
+ address{
+	 width: 15%;
+ } 
+
+ #phone-number{
+	 padding: 10px 0 10px 0;
+ }
+
+ #copyright{
+	 text-align: center;
+	 padding-top: 50px;
+ }
+  /* Copy and paste your work from yesterday here and start to refactor into flexbox */
