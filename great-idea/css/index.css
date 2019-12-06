@@ -73,6 +73,7 @@
 	font-size: 14px;
 	border: 1px solid black;
 	background: white;
+	margin-left:50px;
   	}
 
   h1,
@@ -92,14 +93,18 @@
 	justify-content: space-around;
 	padding: 40px 0 20px 0;
   }
+
+  .body-top h2{
+	  font-size: 16px;
+  }
   
   .body-img {
-	  display: flex;
-	  justify-content: stretch;
+	width: 100%;
   }
 
   .middle-img{
-	  padding: 20px
+	  padding: 20px 0 20px 0;
+	  width: 100%;
 	
   }
   
@@ -109,6 +114,10 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	padding: 20px 0 40px 0;
+  }
+
+  .body-bot h2{
+	font-size: 16px;
   }
   
   .body-top article {
@@ -123,7 +132,7 @@
 	padding-top: 40px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	/* justify-content: space-evenly; */
   }
  address{
 	 width: 15%;
@@ -137,7 +146,9 @@
 	 text-align: center;
 	 padding-top: 50px;
  }
-  /* Start of CSS for Services Page */
+
+
+ /* Start of CSS for Services Page */
   
   .services-main{
 	  display:flex;
@@ -201,5 +212,9 @@
 	border-radius: 5px;
 	padding: 10px;
 	width: 40%;
+}
+
+footer h2{
+	font-size:16px;
 }
 
