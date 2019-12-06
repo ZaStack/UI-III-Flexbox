@@ -6,89 +6,215 @@
   }
   
   body {
-	/* font-size: 62.5%; */
 	font-family: "Titillium Web", sans-serif;
+	line-height: 1;
   }
   
   .container {
-	width: 1000px;
-	/* background: orange; */
-	margin: 0 auto;
+	width: 900px;
+	margin: 40px auto;
+	vertical-align: auto;
+	justify-content: center;
   }
   
   header {
-	background: purple;
+	display: flex;
+	vertical-align: top;
+	height: 60px;
   }
   
   nav {
-	background: yellow;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	vertical-align: baseline;
+	width:100%;
+	height: 30px;
+  }
+
+  nav a{
+	  color: gray;
+	  text-decoration: none;
+  }
+
+  .right{
+	  ;
   }
   
   .main {
-	background: pink;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
   }
   
   #left {
-	background: pink;
-	display: inline-block;
-	width: 49%;
-	padding: 5% 15%;
-	text-align: center;
-	/* margin: 0 0 0px 0; */
+	width: 53%;
+	padding: 5px 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
   }
   
   #right {
-	/* background: white; */
-	display: inline-block;
-	width: 49%;
-	text-align: center;
+	width: 40%;
 	margin-top: 50px;
+	margin-bottom: 50px;
   }
+
   #title {
-	font-size: 60px;
+	font-size: 70px;
+	text-align: center;
   }
+
   button {
 	width: 125px;
 	padding: 5px;
 	font-size: 14px;
 	border: 1px solid black;
 	background: white;
-  }
+	margin-left:50px;
+  	}
+
   h1,
   h2,
   h3,
   h4,
   h5 {
-	/* font-size: 50px; */
 	font-family: "Bangers", cursive;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
   }
   
   .body-top {
-	background: red;
-	border-top: 5px solid black;
+	border-top: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 40px 0 20px 0;
+  }
+
+  .body-top h2{
+	  font-size: 16px;
   }
   
   .body-img {
-	/* width: 100%; */
+	width: 100%;
+  }
+
+  .middle-img{
+	  padding: 20px 0 20px 0;
+	  width: 100%;
+	
   }
   
   .body-bot {
-	background: teal;
-	border-bottom: 5px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 20px 0 40px 0;
+  }
+
+  .body-bot h2{
+	font-size: 16px;
   }
   
   .body-top article {
 	width: 49%;
-	display: inline-block;
   }
   
   .body-bot article {
 	width: 32%;
-	display: inline-block;
   }
   
   footer {
-	background: lightgreen;
-  }/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-evenly; */
+  }
+ address{
+	 width: 15%;
+ } 
+
+ #phone-number{
+	 padding: 20px 0 20px 0;
+ }
+
+ .copyright{
+	 text-align: center;
+	 padding-top: 50px;
+ }
+
+
+ /* Start of CSS for Services Page */
+  
+  .services-main{
+	  display:flex;
+	  flex-direction: column;
+  }
+
+  #services-title{
+	  font-size: 30px;
+  }
+
+  .box{
+	  border:1px solid black;
+	  background: lightgray;
+	  justify-content: left;
+	  text-align: left;
+	  width: 45%;
+	  padding: 20px;
+	  margin:20px 0px;
+  }
+  
+  .services-body-top{
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-between;
+	  border-top:.5px solid black;
+	  padding: 5px 0 5px 0;
+	  width: 100%;
+	  }
+	  
+.services-body-bot{
+	border-top: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding-top:40px;
+}
+
+.services-left{
+	width:45%;
+	line-height: 1;
+}
+
+.services-left ul{
+	padding: 20px;
+	line-height: 2.5;
+}
+
+.intro{
+	margin:40px 0 30px 0;
+}
+
+.box h2{
+	text-align: left;
+}
+
+.box p{
+	text-align: left;
+}
+
+.services-button{
+	margin: 20px 0 0 0;
+	border-radius: 5px;
+	padding: 10px;
+	width: 40%;
+}
+
+footer h2{
+	font-size:16px;
+}
+
