@@ -15,8 +15,9 @@
   .container {
 	width: 900px;
 	/* background: orange; */
-	margin: 40px auto;
+	margin: 55px auto;
 	vertical-align: auto;
+	justify-content: center;
   }
   
   header {
@@ -44,8 +45,6 @@
   .right{
 	  ;
   }
-
-
   
   .main {
 	/* background: pink; */
@@ -85,8 +84,7 @@
 	font-size: 14px;
 	border: 1px solid black;
 	background: white;
-	ma
-  }
+  	}
 
   h1,
   h2,
@@ -155,7 +153,8 @@
 	 padding-top: 50px;
  }
   /* Start of CSS for Services Page */
-
+.services-img-box{
+}
   .services-main{
 	  display:flex;
 	  flex-direction: column;
@@ -168,11 +167,28 @@
   .box{
 	  border:1px solid black;
 	  background: lightgray;
+	  /* justify-content: center; */
+	  text-align: center;
+	  width: 45%;
+	  /* height: 0px */
+	  padding: 20px;
+	  margin:20px 0px;
   }
   
   .services-body-top{
 	  display: flex;
+	  flex-wrap: wrap;
 	  justify-content: space-between;
+	  border-top:.5px solid black;
+	  /* margin: 2%; */
+	  padding: 5px 0 5px 0;
+	  width: 100%;
 	  
-  }
+	  }
+	  
+.services-body-bot{
+	border-top: 2px solid black;
+}
+
+
 
