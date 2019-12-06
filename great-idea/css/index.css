@@ -3,32 +3,27 @@
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
-	/* border:1px solid gray; */
   }
   
   body {
-	/* font-size: 62.5%; */
 	font-family: "Titillium Web", sans-serif;
 	line-height: 1;
   }
   
   .container {
 	width: 900px;
-	/* background: orange; */
 	margin: 40px auto;
 	vertical-align: auto;
 	justify-content: center;
   }
   
   header {
-	/* background: purple; */
 	display: flex;
 	vertical-align: top;
 	height: 60px;
   }
   
   nav {
-	/* background: yellow; */
 	display: flex;
 	flex-direction: row;
 	justify-content:space-between;
@@ -47,7 +42,6 @@
   }
   
   .main {
-	/* background: pink; */
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -57,24 +51,19 @@
   #left {
 	width: 53%;
 	padding: 5px 15px;
-	/* align-content: center; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	/* margin: 0 0 0px 0; */
   }
   
   #right {
-	/* background: white; */
 	width: 40%;
-	/* align-content: center; */
 	margin-top: 50px;
 	margin-bottom: 50px;
   }
 
   #title {
 	font-size: 70px;
-	/* width: ; */
 	text-align: center;
   }
 
@@ -91,14 +80,12 @@
   h3,
   h4,
   h5 {
-	/* font-size: 50px; */
 	font-family: "Bangers", cursive;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
   }
   
   .body-top {
-	/* background: red; */
 	border-top: 1px solid black;
 	display: flex;
 	flex-direction: row;
@@ -117,7 +104,6 @@
   }
   
   .body-bot {
-	/* background: teal; */
 	border-bottom: 1px solid black;
 	display: flex;
 	flex-direction: row;
@@ -134,7 +120,6 @@
   }
   
   footer {
-	/* background: lightgreen; */
 	padding-top: 40px;
 	display: flex;
 	flex-direction: column;
@@ -169,7 +154,6 @@
 	  justify-content: left;
 	  text-align: left;
 	  width: 45%;
-	  /* height: 40px */
 	  padding: 20px;
 	  margin:20px 0px;
   }
@@ -179,10 +163,8 @@
 	  flex-wrap: wrap;
 	  justify-content: space-between;
 	  border-top:.5px solid black;
-	  /* margin: 2%; */
 	  padding: 5px 0 5px 0;
 	  width: 100%;
-	  
 	  }
 	  
 .services-body-bot{
