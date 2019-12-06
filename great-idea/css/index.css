@@ -15,7 +15,7 @@
   .container {
 	width: 900px;
 	/* background: orange; */
-	margin: 55px auto;
+	margin: 40px auto;
 	vertical-align: auto;
 	justify-content: center;
   }
@@ -34,7 +34,7 @@
 	justify-content:space-between;
 	vertical-align: baseline;
 	width:100%;
-	height: 35px;
+	height: 30px;
   }
 
   nav a{
@@ -148,13 +148,12 @@
 	 padding: 20px 0 20px 0;
  }
 
- #copyright{
+ .copyright{
 	 text-align: center;
 	 padding-top: 50px;
  }
   /* Start of CSS for Services Page */
-.services-img-box{
-}
+  
   .services-main{
 	  display:flex;
 	  flex-direction: column;
@@ -167,10 +166,10 @@
   .box{
 	  border:1px solid black;
 	  background: lightgray;
-	  /* justify-content: center; */
-	  text-align: center;
+	  justify-content: left;
+	  text-align: left;
 	  width: 45%;
-	  /* height: 0px */
+	  /* height: 40px */
 	  padding: 20px;
 	  margin:20px 0px;
   }
@@ -188,7 +187,37 @@
 	  
 .services-body-bot{
 	border-top: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+	padding-top:40px;
 }
 
+.services-left{
+	width:45%;
+	line-height: 1;
+}
 
+.services-left ul{
+	padding: 20px;
+	line-height: 2.5;
+}
+
+.intro{
+	margin:40px 0 30px 0;
+}
+
+.box h2{
+	text-align: left;
+}
+
+.box p{
+	text-align: left;
+}
+
+.services-button{
+	margin: 20px 0 0 0;
+	border-radius: 5px;
+	padding: 10px;
+	width: 40%;
+}
 
